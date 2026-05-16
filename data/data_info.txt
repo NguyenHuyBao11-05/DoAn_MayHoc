@@ -1,0 +1,11 @@
+Dataset: Game Recommendations on Steam
+Source: https://www.kaggle.com/datasets/antonkozyriev/game-recommendations-on-steam
+
+Files:
+- games.csv: 50,872 games
+- recommendations.csv: 41M+ recommendations  
+- users.csv: 7M+ users
+
+Notes:
+- price_final và discount không đáng tin (chỉ snapshot tại 1 thời điểm)
+- Dùng price_original thay vì price_final

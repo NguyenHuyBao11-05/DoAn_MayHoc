@@ -1,0 +1,17 @@
+{
+    "total_games": 50872,
+    "total_users": 14306064,
+    "total_recommendations": 41154794,
+    "unique_users_with_reviews": 13781059,
+    "unique_games_reviewed": 37610,
+    "positive_recommendation_ratio": 0.8578441189621797,
+    "avg_game_price": 10.885909715070376,
+    "free_games_count": 10090,
+    "paid_games_count": 40782,
+    "windows_support": 50076,
+    "mac_support": 13018,
+    "linux_support": 9041,
+    "steam_deck_support": 50870,
+    "avg_hours_played": 100.60223780004829,
+    "most_common_rating": "Positive"
+}
