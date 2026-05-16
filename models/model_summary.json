@@ -1,0 +1,89 @@
+{
+    "training_date": "2026-05-16 22:26:29",
+    "model_type": "Random Forest + Cosine Similarity",
+    "training_samples": 400000,
+    "test_samples": 100000,
+    "num_features": 23,
+    "rf_params": {
+        "n_estimators": 100,
+        "max_depth": 15,
+        "class_weight": "balanced"
+    },
+    "performance": {
+        "train_accuracy": 0.771915,
+        "test_accuracy": 0.75877,
+        "roc_auc": 0.8224160183449366
+    },
+    "feature_columns": [
+        "hours",
+        "helpful",
+        "funny",
+        "rating_score",
+        "positive_ratio",
+        "user_reviews",
+        "price_original",
+        "discount",
+        "is_free",
+        "has_discount",
+        "win",
+        "mac",
+        "linux",
+        "steam_deck",
+        "platform_count",
+        "review_volume_tier",
+        "popularity_score",
+        "products",
+        "reviews",
+        "products_tier",
+        "reviews_tier",
+        "activity_score",
+        "review_ratio"
+    ],
+    "top_features": [
+        {
+            "feature": "popularity_score",
+            "importance": 0.2027731465073747
+        },
+        {
+            "feature": "positive_ratio",
+            "importance": 0.18267473040037316
+        },
+        {
+            "feature": "hours",
+            "importance": 0.1725572422050148
+        },
+        {
+            "feature": "helpful",
+            "importance": 0.12564940220826507
+        },
+        {
+            "feature": "rating_score",
+            "importance": 0.1060892377958653
+        },
+        {
+            "feature": "user_reviews",
+            "importance": 0.04379750504336972
+        },
+        {
+            "feature": "funny",
+            "importance": 0.03654756069065996
+        },
+        {
+            "feature": "activity_score",
+            "importance": 0.021314791681210976
+        },
+        {
+            "feature": "products",
+            "importance": 0.021252980010790172
+        },
+        {
+            "feature": "review_ratio",
+            "importance": 0.020279555972231494
+        }
+    ],
+    "similarity_matrix_shape": [
+        50872,
+        50872
+    ],
+    "total_games": 50872
+}
