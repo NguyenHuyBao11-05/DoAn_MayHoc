@@ -218,7 +218,7 @@ with st.sidebar:
     st.subheader("🤖 Mô hình dự đoán")
     model = st.selectbox(
         "Chọn mô hình",
-        ["NCF", "Random Forest", "Cosine Similarity"],
+        ["NCF", "Random Forest", "Cosine Similarity", "MLP",  "CMM"],
         index=0,
         help="NCF là mô hình tối ưu nhất (F1-Score = 0.89)",
     )
